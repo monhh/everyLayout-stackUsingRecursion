@@ -87,7 +87,7 @@ h1, h2, h3, h4 {
     hyphens: auto;
 }
 
-shrink-grow {
+.shrink-grow {
     display: block;
     margin-inline: 0;
     max-width: none;
@@ -108,7 +108,7 @@ shrink-grow {
     box-sizing: border-box;
 }
   
-center-l {
+.center-l {
     display: block;
     box-sizing: content-box;
     margin-inline: auto;
@@ -118,7 +118,7 @@ center-l {
 }
 
 
-stack-l * + * {
+.stack-l * + * {
     display: flex;
     flex-direction: column;
     
@@ -127,7 +127,7 @@ stack-l * + * {
     margin-block-start: var(--s1);
 }
 
-box-l {
+.box-l {
     display: block;
 
     outline: var(--border-thin) solid transparent;
